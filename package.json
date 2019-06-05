@@ -1,6 +1,6 @@
 {
   "name": "ts-statemachine",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A fully typed javascript state machine",
   "main": "dist/index.js",
   "umd:main": "dist/ts-statemachine.umd.production.js",
