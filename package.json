@@ -1,0 +1,48 @@
+{
+  "name": "ts-statemachine",
+  "version": "0.0.0",
+  "description": "A fully typed javascript state machine",
+  "main": "dist/index.js",
+  "umd:main": "dist/ts-statemachine.umd.production.js",
+  "module": "dist/ts-statemachine.es.production.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "docs": "typedoc --out docs src",
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test"
+  },
+  "peerDependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "husky": "^2.3.0",
+    "prettier": "^1.17.1",
+    "pretty-quick": "^1.11.0",
+    "tsdx": "^0.5.11",
+    "tslib": "^1.9.3",
+    "typedoc": "^0.14.2",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "ts-primitives": "^1.0.1"
+  },
+  "author": "Geoff Goodman <geoff@goodman.dev> (https://geoff.goodman.dev)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ggoodman/ts-primitives/issues"
+  }
+}
