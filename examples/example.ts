@@ -1,5 +1,4 @@
 import { StateMachineTransitions, StateMachine, StateKind } from '../src';
-import { AssertionError } from 'assert';
 
 declare function checkIgnitionKey(): boolean;
 

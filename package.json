@@ -10,7 +10,6 @@
     "dist"
   ],
   "scripts": {
-    "docs": "typedoc --out docs src",
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test"
@@ -34,7 +33,6 @@
     "pretty-quick": "^1.11.0",
     "tsdx": "^0.5.11",
     "tslib": "^1.9.3",
-    "typedoc": "^0.14.2",
     "typescript": "^3.4.5"
   },
   "dependencies": {
